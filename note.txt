@@ -1,0 +1,211 @@
+
+Pen5@Pen5-PC MINGW32 ~
+$ pwd
+/c/Users/Pen5
+
+Pen5@Pen5-PC MINGW32 ~
+$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to fo
+llow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+Pen5@Pen5-PC MINGW32 ~
+$ cd
+
+Pen5@Pen5-PC MINGW32 ~
+$ cd documents
+
+Pen5@Pen5-PC MINGW32 ~/documents
+$ cd UM
+UM - coding bootcamp/ UMBootcamp - Note/    UMBootcamp 2018/
+
+Pen5@Pen5-PC MINGW32 ~/documents
+$ cd UMBootcamp\ 2018
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018
+$ cd hw-week3
+bash: cd: hw-week3: No such file or directory
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018
+$ hw-week3
+bash: hw-week3: command not found
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018
+$ cd week3
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3
+$ cd hw-week3
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3
+$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to fo
+llow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3
+$ git clone https://github.com/johnwcho5/Hangman-Game.git
+Cloning into 'Hangman-Game'...
+warning: You appear to have cloned an empty repository.
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3
+$ cd hw-week3
+bash: cd: hw-week3: No such file or directory
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3
+$ cd hangman-Game
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game (ma
+ster)
+$ touch index.html
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game (ma
+ster)
+$ cd assets
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game/ass
+ets (master)
+$ cd javascript
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game/ass
+ets/javascript (master)
+$ touch game.js
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game/ass
+ets/javascript (master)
+$ cd css
+bash: cd: css: No such file or directory
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game/ass
+ets/javascript (master)
+$ cd ..
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game/ass
+ets (master)
+$ cd css
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game/ass
+ets/css (master)
+$ touch style.css
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game/ass
+ets/css (master)
+$ touch reset.css
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game/ass
+ets/css (master)
+$ cd ..
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game/ass
+ets (master)
+$ cd ..
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game (ma
+ster)
+$ git add .
+warning: CRLF will be replaced by LF in assets/css/reset.css.
+The file will have its original line endings in your working directory.
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game (ma
+ster)
+$ git commit -m "hwfiles"
+[master (root-commit) 3d38e10] hwfiles
+ 4 files changed, 49 insertions(+)
+ create mode 100644 assets/css/reset.css
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/javascript/game.js
+ create mode 100644 index.html
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game (ma
+ster)
+$ git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.08 KiB | 277.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/johnwcho5/Hangman-Game.git
+ * [new branch]      master -> master
+
+Pen5@Pen5-PC MINGW32 ~/documents/UMBootcamp 2018/week3/hw-week3/hangman-Game (ma
+ster)
+$

@@ -1,0 +1,94 @@
+.post {
+	width: 10px;
+	height: 200px;
+	background-color: #666;
+}
+
+.crossbar {
+	width: 80px;
+	height: 10px;
+	background-color: #666;
+}
+
+.gallows {
+	position: absolute;
+	left: 380px;
+	top: 1px;
+}
+
+.head {
+	position: relative;
+	left: 60px;
+	top:  20px;
+	width: 30px;
+	height: 30px;
+	background: blue;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.body {
+	position: relative;
+	width: 8px;
+	height: 60px;
+	left: 71px;
+	top:  20px;
+	background-color: blue;
+}
+
+.right-arm {
+	position: relative;
+	width: 8px;
+	height: 30px;
+	left: 9px;
+	top:  10px;
+	background-color: blue;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.left-arm {
+	position: relative;
+	width: 8px;
+	height: 30px;
+	left: -9px;
+	top:  -20px;
+	background-color: blue;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.right-leg {
+	position: relative;
+	width: 8px;
+	height: 30px;
+	left: 10px;
+	top:  -35px;
+	background-color: blue;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.left-leg {
+	position: relative;
+	width: 8px;
+	height: 30px;
+	left: -10px;
+	top:  -5px;
+	background-color: blue;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
